@@ -1,4 +1,4 @@
-let pathVi = "../assets/i18n/vi.json";
+let pathVi = "assets/i18n/vi.json";
 function translate(path){
     $.ajax({
         url: path,
