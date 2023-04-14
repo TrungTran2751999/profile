@@ -1,0 +1,192 @@
+{
+    "title": {
+        "selector": "title",
+        "content": "Trần Văn Trung - Lập trình viên JAVA"
+    },
+    "fullName":{
+        "selector":".hero-container h1",
+        "content": "Trần Văn Trung"
+    },
+    "I-am":{
+        "selector":"#Iam",
+        "content": "Tôi là"
+    },
+    "typed":{
+        "selector":".typed",
+        "content": "Lập trình viên JAVA",
+        "prop":"data-typed-items"
+    },
+    "dowload-cv":{
+        "selector":"#dowload-cv",
+        "content": "CV của tôi"
+    },
+    "fullName-sidebar":{
+        "selector":".fullName-sidebar",
+        "content": "Trần Văn Trung"
+    },
+    "start":{
+        "selector":"#start",
+        "content": "Tổng quan"
+    },
+    "introduce":{
+        "selector":"#introduce",
+        "content": "Giới thiệu"
+    },
+    "education":{
+        "selector":"#education",
+        "content": "Học vấn"
+    },
+    "product":{
+        "selector":"#product",
+        "content": "Sản phẩm"
+    },
+    "introduce-title":{
+        "selector":"#introduce-title",
+        "content": "Giới thiệu"
+    },
+    "content-introduce":{
+        "selector":"#content-introduce",
+        "content": "<p>Tôi là một người năng động, sáng tạo và ham học hỏi. Tôi sẵn sàng thay đổi và học những công nghệ mới theo yêu cầu của công ty. Sau 4,5 năm học Đại học chuyên ngành Công nghệ thực phẩm, tôi đã rèn luyện được khả năng tự học, tư duy logic và kỉ luật bản thân. Từ đó, tạo tiền đề để hoàn thành tốt những thử thách tại trung tâm đào tạo lập trình CodeGym Huế đề ra trong suốt quá trình học. </p><ul><li>Mục tiêu ngắn hạn (6 tháng - 1 năm): Nâng cao kiến thức chuyên môn, học ngôn ngữ lập trình PHP, cái thiển trình độ Tiếng Anh để có thể hoàn thành tốt dự án của công ty.</li><li>Mục tiêu dài hạn (3 - 5 năm): Vững vàng về kiến thức, chuyên nghiệp về kĩ năng để trở thành nhân tố cốt lõi của công ty. </li></ul>"
+    },
+    "birthday-title":{
+        "selector":"#birthday-title",
+        "content": "Ngày sinh: "
+    },
+    "birthday-content":{
+        "selector":"#birthday-content",
+        "content": "27-05-1999"
+    },
+    "email-title":{
+        "selector":"#email-title",
+        "content": "Email: "
+    },
+    "email-content":{
+        "selector":"#email-content",
+        "content": "trantrung2751999@gmail.com"
+    },
+    "address-title":{
+        "selector":"#address-title",
+        "content": "Địa chỉ: "
+    },
+    "address-content":{
+        "selector":"#address-content",
+        "content": "6/12 Tô Ngọc Vân, thành phố Huế, Thừa Thiên Huế"
+    },
+    "phone-title":{
+        "selector":"#phone-title",
+        "content": "Số điện thoại: "
+    },
+    "phone-content":{
+        "selector":"#phone-content",
+        "content": "0898192215"
+    },
+    "gender-title":{
+        "selector":"#gender-title",
+        "content": "Giới tính: "
+    },
+    "gender-content":{
+        "selector":"#gender-content",
+        "content": "Nam"
+    },
+    "position-title":{
+        "selector":"#position-title",
+        "content": "Trần Văn Trung"
+    },
+    "english":{
+        "selector":"#english",
+        "content": "Tiếng Anh"
+    },
+    "self-learning":{
+        "selector":"#self-learning",
+        "content": "Kĩ năng tự học"
+    },
+    "teamwork":{
+        "selector":"#teamwork",
+        "content": "Kĩ năng làm việc nhóm"
+    },
+    "pressure-resistant":{
+        "selector":"#pressure",
+        "content": "Khả năng chịu áp lực"
+    },
+    "education-title":{
+        "selector":"#education-title",
+        "content": "Học vấn"
+    },
+    "education-process":{
+        "selector":"#education-process",
+        "content": "Quá trình học tập"
+    },
+    "food-techonology":{
+        "selector":"#food-techonology",
+        "content": "Công nghệ thực phẩm"
+    },
+    "university":{
+        "selector":"#university",
+        "content": "TRƯỜNG ĐẠI HỌC NÔNG LÂM HUẾ"
+    },
+    "university-content":{
+        "selector":"#university-content",
+        "content": "Tốt nghiệp Kĩ sư loại giỏi với điểm GPA=3,37"
+    },
+    "java-course":{
+        "selector":"#java-course",
+        "content": "KHÓA HỌC JAVA WEB FULLSTACK"
+    },
+    "codegym-center":{
+        "selector":"#codegym-center",
+        "content": "TRUNG TÂM ĐÀO TẠO LẬP TRÌNH CODEGYM HUẾ"
+    },
+    "codegym-content":{
+        "selector":"#codegym-content",
+        "content": "Được trang bị các kiến thức để tạo nên một trang web hoàn chỉnh: Sử dụng HTML, CSS, Javascript để tạo Front-End; Tạo Back-End bằng công nghệ Spring Boot; Thiết kế cơ sở dữ liệu bằng MySQL."
+    },
+    "certificate-title":{
+        "selector":"#certificate-title",
+        "content": "Chứng chỉ"
+    },
+    "git-certificate":{
+        "selector":"#git-certificate",
+        "content": "Chứng chỉ hoàn thành khóa học Git: "
+    },
+    "learning-certificate":{
+        "selector":"#learning-certificate",
+        "content": "Chứng chỉ hoàn thành khóa học Học cách học: "
+    },
+    "scrum-certificate":{
+        "selector":"#scrum-certificate",
+        "content": "Chứng chỉ hoàn thành khóa học Scrum:"
+    },
+    "kanban-certificate":{
+        "selector":"#kanban-certificate",
+        "content": "Chứng chỉ hoàn thành khóa học Kanban: "
+    },
+    "product-title":{
+        "selector":"#product-title",
+        "content": "Sản phẩm"
+    },
+    "testimonial":{
+        "selector":"#testimonial",
+        "content": "Đánh giá"
+    },
+    "khoa-nguyen":{
+        "selector":"#khoa-nguyen",
+        "content": "Nguyễn Hữu Anh Khoa"
+    },
+    "director-codegym":{
+        "selector":"#director-codegym",
+        "content": "Giám đốc trung tâm Codegym Huế"
+    },
+    "quang-dang":{
+        "selector":"#quang-dang",
+        "content": "Đặng Văn Quang"
+    },
+    "cu-tran":{
+        "selector":"#cu-tran",
+        "content": "Trần Văn Cử"
+    },
+    "teacher-codegym":{
+        "selector":".teacher-codegym",
+        "content": "Giảng viên trung tâm Codegym Huế"
+    }
+    
+}
