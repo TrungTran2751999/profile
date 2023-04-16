@@ -116,6 +116,10 @@
         "selector":"#education-title",
         "content": "Education"
     },
+    "skills-title":{
+        "selector":"#skills-title",
+        "content": "Skills"
+    },
     "education-process":{
         "selector":"#education-process",
         "content": "Education process"

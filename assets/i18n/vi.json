@@ -164,6 +164,10 @@
         "selector":"#kanban-certificate",
         "content": "Chứng chỉ hoàn thành khóa học Kanban: "
     },
+    "skills-title":{
+        "selector":"#skills-title",
+        "content": "Kĩ năng"
+    },
     "product-title":{
         "selector":"#product-title",
         "content": "Sản phẩm"
