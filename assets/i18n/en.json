@@ -1,0 +1,207 @@
+{
+    "title": {
+        "selector": "title",
+        "content": "Tran Van Trung - JAVA Developer"
+    },
+    "fullName":{
+        "selector":".hero-container h1",
+        "content": "Tran Van Trung"
+    },
+    "I-am":{
+        "selector":"#Iam",
+        "content": "I'm"
+    },
+    "typed":{
+        "selector":".typed",
+        "content": "JAVA Developer",
+        "prop":"data-typed-items"
+    },
+    "dowload-cv":{
+        "selector":"#dowload-cv",
+        "content": "My CV"
+    },
+    "fullName-sidebar":{
+        "selector":".fullName-sidebar",
+        "content": "Tran Van Trung"
+    },
+    "start":{
+        "selector":"#start",
+        "content": "Home"
+    },
+    "introduce":{
+        "selector":"#introduce",
+        "content": "Introduce"
+    },
+    "education":{
+        "selector":"#education",
+        "content": "Education"
+    },
+    "product":{
+        "selector":"#product",
+        "content": "Product"
+    },
+    "testimonials":{
+        "selector":"#testimonials",
+        "content": "Testimonials"
+    },
+    "introduce-title":{
+        "selector":"#introduce-title",
+        "content": "Introduce"
+    },
+    "content-introduce":{
+        "selector":"#content-introduce",
+        "content": "<p>I’m dynamic, creative and studious. I’m ready to change myself and learn new techonology that company require. After 4,5 year of studying Food Technology major, I had trained in self-learning, logical thinking and self-discipline. By these skills, I had successfully completed challenges that had required by Codegym tranning programing center. </p><ul><li>Short-term goal (6 months – 1 year): Enhance professional knowledge, learn program language PHP, improve English to successfully complete tasks of company.</li><li>Long-term goal (3 years – 5 years): Firm in knowledge, professional in skills to key member of company. </li></ul>"
+    },
+    "birthday-title":{
+        "selector":"#birthday-title",
+        "content": "Birthday: "
+    },
+    "birthday-content":{
+        "selector":"#birthday-content",
+        "content": "27-05-1999"
+    },
+    "email-title":{
+        "selector":"#email-title",
+        "content": "Email: "
+    },
+    "email-content":{
+        "selector":"#email-content",
+        "content": "trantrung2751999@gmail.com"
+    },
+    "address-title":{
+        "selector":"#address-title",
+        "content": "Address: "
+    },
+    "address-content":{
+        "selector":"#address-content",
+        "content": "6/12 To Ngoc Van street, Hue city, Thua Thien Hue"
+    },
+    "phone-title":{
+        "selector":"#phone-title",
+        "content": "Phone number: "
+    },
+    "phone-content":{
+        "selector":"#phone-content",
+        "content": "0898192215"
+    },
+    "gender-title":{
+        "selector":"#gender-title",
+        "content": "Gender: "
+    },
+    "gender-content":{
+        "selector":"#gender-content",
+        "content": "Male"
+    },
+    "position-title":{
+        "selector":"#position-title",
+        "content": "Tran Van Trung"
+    },
+    "english":{
+        "selector":"#english",
+        "content": "English"
+    },
+    "self-learning":{
+        "selector":"#self-learning",
+        "content": "Self-learning"
+    },
+    "teamwork":{
+        "selector":"#teamwork",
+        "content": "Teamwork"
+    },
+    "pressure-resistant":{
+        "selector":"#pressure",
+        "content": "Pressure resistance"
+    },
+    "education-title":{
+        "selector":"#education-title",
+        "content": "Education"
+    },
+    "education-process":{
+        "selector":"#education-process",
+        "content": "Education process"
+    },
+    "food-techonology":{
+        "selector":"#food-techonology",
+        "content": "Food technology"
+    },
+    "university":{
+        "selector":"#university",
+        "content": "HUE UNIVERSITY OF AGRICULTURE  AND FORESTRY"
+    },
+    "university-content":{
+        "selector":"#university-content",
+        "content": "Graduated with good Engineer, GPA=3,37"
+    },
+    "java-course":{
+        "selector":"#java-course",
+        "content": "JAVA WEB FULLSTACK COURSE"
+    },
+    "codegym-center":{
+        "selector":"#codegym-center",
+        "content": "HUE CODEGYM TRANING PROGRAMING CENTER"
+    },
+    "codegym-content":{
+        "selector":"#codegym-content",
+        "content": "I have learned knowledges to create complete website. Using HTML, CSS và Jascript to create Front-End. Creating Back-End by Spring Boot framework. Designing Database by MySQL."
+    },
+    "certificate-title":{
+        "selector":"#certificate-title",
+        "content": "CERTIFICATES"
+    },
+    "git-certificate":{
+        "selector":"#git-certificate",
+        "content": "Certificate Git Course: "
+    },
+    "learning-certificate":{
+        "selector":"#learning-certificate",
+        "content": "Certificate How learning Course: "
+    },
+    "scrum-certificate":{
+        "selector":"#scrum-certificate",
+        "content": "Certificate Scrum Course:"
+    },
+    "kanban-certificate":{
+        "selector":"#kanban-certificate",
+        "content": "Certificate Kanban Course: "
+    },
+    "product-title":{
+        "selector":"#product-title",
+        "content": "Product"
+    },
+    "testimonial":{
+        "selector":"#testimonial",
+        "content": "Testimonials"
+    },
+    "khoa-nguyen":{
+        "selector":".khoa-nguyen",
+        "content": "Nguyen Huu Anh Khoa"
+    },
+    "director-codegym":{
+        "selector":".director-codegym",
+        "content": "Hue Codegym center director"
+    },
+    "quang-dang":{
+        "selector":".quang-dang",
+        "content": "Dang Van Quang"
+    },
+    "cu-tran":{
+        "selector":".cu-tran",
+        "content": "Tran Van Cu"
+    },
+    "teacher-codegym":{
+        "selector":".teacher-codegym",
+        "content": "Hue Codegym center teacher"
+    },
+    "testimonial-khoa":{
+        "selector":".testimonial-khoa",
+        "content": "Trung is a intelligent, hard, high self-discipline, independent working and good self-learning student. Beside completing his task, Trung also actively researched other complementary knowledge. And also not afraid to support and help classmates in learning. When working on projects, Trung has a serious working spirit, responsibility, and can withstand pressure.<br>"
+    },
+    "testimonial-quang":{
+        "selector":".testimonial-quang",
+        "content": "I was really impressed with Trung by his ability to self-study and self-study. Every day after finishing school at the center, Trung is the one who stays alone at the center to study until 8-9pm, so it's not surprising that Trung is always one of the best classmates in the class. In the process of doing case studies, Trung always fulfills the requirements set by the lecturer."
+    },
+    "testimonial-cu":{
+        "selector":".testimonial-cu",
+        "content": "During working on project, I was the Srum Master of his group, so I was very impressed by Trung's ability to self-study, explore and solve difficult problems. Trung is a careful, meticulous person, always dedicated to work. When facing a difficult problem, instead of asking a teacher to suggest how to solve the problem, Trung chooses to read the document and think about how to solve the problem."
+    }
+}

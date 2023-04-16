@@ -1,38 +1,35 @@
 let pathVi = "assets/i18n/vi.json";
-$(document).ready(()=>{
-    function translate(path){
-        $.ajax({
-            url: path,
-            type: "GET",
-            async: false
-        })
-        .done((result)=>{
-            renderJson(result)
-            $("#portpolio").css("display","block")
-        })
-    }
-    function renderJson(json){
-        let valueTotal = Object.values(json);
-        valueTotal.map(value=>{
-            let valueChildrenArr = Object.values(value);
-            let keyChildrenArr = Object.keys(value);
-            if(!keyChildrenArr.includes("prop")){
-                $(valueChildrenArr[0]).html(valueChildrenArr[1]);
-            }else{
-                $(valueChildrenArr[0]).attr(valueChildrenArr[2], valueChildrenArr[1]);
-            }
-        })
-    }
-    translate(pathVi);
-    /**
-* Template Name: iPortfolio
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-(function() {
+let pathEn = "assets/i18n/en.json";
+let hrefCV = {
+  en:"https://drive.google.com/file/d/1i_1K02aCUx1mYbKEwBT_yFL46KNzRzQ7/view?usp=sharing",
+  vi:"https://drive.google.com/file/d/1O0R1Gfyh-Ip1ZwD5k9N2Enit7Z0gcFet/view?usp=sharing"
+}
+let isVI = false; isEN = false;
+function translate(path){
+  $.ajax({
+      url: path,
+      type: "GET",
+      async: false
+  })
+  .done((result)=>{
+      renderJson(result)
+      $("#portpolio").css("display","block")
+  })
+}
+function renderJson(json){
+  let valueTotal = Object.values(json);
+  valueTotal.map(value=>{
+      let valueChildrenArr = Object.values(value);
+      let keyChildrenArr = Object.keys(value);
+      if(!keyChildrenArr.includes("prop")){
+          $(valueChildrenArr[0]).html(valueChildrenArr[1]);
+      }else{
+          $(valueChildrenArr[0]).attr(valueChildrenArr[2], valueChildrenArr[1]);
+      }
+  })
+}
+function handle(){
+  (function() {
     "use strict";
   
     /**
@@ -156,11 +153,26 @@ $(document).ready(()=>{
     /**
      * Hero type effect
      */
-    const typed = select('.typed')
-    if (typed) {
-      let typed_strings = typed.getAttribute('data-typed-items')
-      typed_strings = typed_strings.split(',')
-      new Typed('.typed', {
+    const vi = select('#vi')
+    if (vi) {
+      // let typed_strings = typed.getAttribute('data-typed-items')
+      // typed_strings = typed_strings.split(',')
+      let typed_strings = ["Lập trình viên JAVA"];
+      new Typed('#vi', {
+        strings: typed_strings,
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 50,
+        backDelay: 2000
+      });
+    }
+
+    const en = select('#en')
+    if (en) {
+      // let typed_strings = typed.getAttribute('data-typed-items')
+      // typed_strings = typed_strings.split(',')
+      let typed_strings = ["JAVA Developer"];
+      new Typed('#en', {
         strings: typed_strings,
         loop: true,
         typeSpeed: 100,
@@ -286,5 +298,69 @@ $(document).ready(()=>{
      */
     new PureCounter();
   
-  })()
-})
+  })();
+}
+$(document).ready(()=>{
+    const queryString = window.location.search;
+    const urlParam = new URLSearchParams(queryString);
+    const lg = urlParam.get("lg");
+    let param = {};
+    if(lg=="vi"){
+      param=pathVi;
+      isVI=true;
+      $("#vi").removeAttr("style");
+      $("#en").css("display","none");
+      sttPointer(0);
+    }else{
+      param=pathEn;
+      isEN=true;
+      $("#vi").css("display","none");
+      $("#en").removeAttr("style");
+      sttPointer(1)
+    }
+    translate(param);
+    $("#dowload-cv").prop("href",hrefCV[lg]);
+    handle();
+});
+$("#translate").click(()=>{
+  $("#portpolio").css("display","none");
+  if(isVI){
+    isEN = true; isVI = false;
+    translate(pathVi);
+    $("#vi").removeAttr("style");
+    $("#en").css("display","none");
+    $("#dowload-cv").prop("href",hrefCV["vi"]);
+    $("#translate").html("VI");
+    sttPointer(0);
+  }else if(isEN){
+    isEN = false; isVI = true;
+    translate(pathEn);
+    $("#vi").css("display","none");
+    $("#en").removeAttr("style");
+    $("#dowload-cv").prop("href",hrefCV["en"]);
+    $("#translate").html("EN");
+    sttPointer(1);
+  }
+});
+$("#translate").mouseover(()=>{
+  $("#translate").css("animation","none");
+  let lg = "";
+  isVI ? lg="VI" : lg="EN"
+  $("#translate").html(lg);
+});
+$("#translate").mouseleave(()=>{
+  $("#translate").css("animation","sparkling 900ms ease infinite")
+  $("#translate").html(`<i class="bx bi-exclamation-circle"></i>`)
+});
+function sttPointer(index){
+  let loopPointer = setInterval(()=>{
+    let arrTyped = $(".typed-cursor");
+    if(arrTyped.length > 1){
+      $(arrTyped[index]).removeAttr("style");
+      for(let i=0; i<arrTyped.length; i++){
+        if(i!=index) $(arrTyped[i]).css("display","none");
+      }
+      clearInterval(loopPointer);
+    }
+  })
+}

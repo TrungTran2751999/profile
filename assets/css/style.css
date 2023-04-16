@@ -13,12 +13,18 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
 }
-
+#translate:hover{
+  cursor: pointer;
+}
 a {
   color: #149ddd;
   text-decoration: none;
 }
-
+@keyframes sparkling{
+  0%{color: #212431;}
+  50%{color: #212431;}
+  100%{color: red;}
+}
 a:hover {
   color: #37b3ed;
   text-decoration: none;

@@ -40,6 +40,10 @@
         "selector":"#product",
         "content": "Sản phẩm"
     },
+    "testimonials":{
+        "selector":"#testimonials",
+        "content": "Đánh giá"
+    },
     "introduce-title":{
         "selector":"#introduce-title",
         "content": "Giới thiệu"
@@ -169,24 +173,35 @@
         "content": "Đánh giá"
     },
     "khoa-nguyen":{
-        "selector":"#khoa-nguyen",
+        "selector":".khoa-nguyen",
         "content": "Nguyễn Hữu Anh Khoa"
     },
     "director-codegym":{
-        "selector":"#director-codegym",
+        "selector":".director-codegym",
         "content": "Giám đốc trung tâm Codegym Huế"
     },
     "quang-dang":{
-        "selector":"#quang-dang",
+        "selector":".quang-dang",
         "content": "Đặng Văn Quang"
     },
     "cu-tran":{
-        "selector":"#cu-tran",
+        "selector":".cu-tran",
         "content": "Trần Văn Cử"
     },
     "teacher-codegym":{
         "selector":".teacher-codegym",
         "content": "Giảng viên trung tâm Codegym Huế"
+    },
+    "testimonial-khoa":{
+        "selector":".testimonial-khoa",
+        "content": "Trung là một học viên có tư duy tốt, chăm chỉ, tính kỷ luật cao, khả năng làm việc độc lập và năng lực tự học tốt. Bên cạnh hoàn thành nội dung học tập của mình, Trung cũng chủ động nghiên cứu thêm các kiến thức bổ trợ khác. Và cũng không ngại hỗ trợ và giúp đỡ các bạn cùng lớp trong học tập. Khi làm project, Trung có tinh thần làm việc nghiêm túc, trách nhiệm, chịu được áp lực."
+    },
+    "testimonial-quang":{
+        "selector":".testimonial-quang",
+        "content": "Trong quá trình học tập tại Codegym, mình thật sự ấn tượng với Trung bởi khả năng tự học, tự nghiên cứu. Hàng ngày sau khi hết giờ học tại trung tâm, Trung là người một mình ở lại trung tâm tự học đến 8-9h tối, nên không bất ngờ khi Trung luôn là một trong những bạn học giỏi nhất của lớp. Trong quá trình làm các Case Study, Trung luôn luôn hoàn thành tốt những yêu cầu mà giảng viên đề ra."
+    },
+    "testimonial-cu":{
+        "selector":".testimonial-cu",
+        "content": "Trong quá trình làm project, mình là Srum Master của nhóm nên rất ấn tượng bởi khả năng tự tìm hiểu, tìm tòi và giải quyết những vấn đề khó của Trung. Trung là một người cẩn thận, tỉ mĩ, luôn tận tâm công việc. Khi gặp vấn đề khó, thay vì đi nhờ giảng viên để gợi ý cách giải quyết vấn đề, Trung lại chọn đọc tài liệu, suy nghĩ cách để có thể giải quyết vấn đề đó."
     }
-    
 }
